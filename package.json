@@ -1,11 +1,29 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandrosov/telegramBot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/pandrosov/telegramBot/issues"
+  },
+  "homepage": "https://github.com/pandrosov/telegramBot#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.5",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
